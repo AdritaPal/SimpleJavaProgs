@@ -1,0 +1,12 @@
+package funcInt;
+
+import java.util.function.BiFunction;
+
+public class BiFuncTest implements BiFunction<T, U, R> {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

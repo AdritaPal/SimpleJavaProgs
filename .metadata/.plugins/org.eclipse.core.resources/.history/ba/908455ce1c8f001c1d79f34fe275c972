@@ -1,0 +1,27 @@
+package oops;
+
+class Bank{
+	int getRateOfInterest() {
+		return 0;
+	}
+}
+
+class ICICI extends Bank{
+	int getRateOfInterest() {
+		return 7;
+	}
+}
+
+class HDFC{
+	int getRateOfInterest() {
+		return 10;
+	}
+}
+public class Overriding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

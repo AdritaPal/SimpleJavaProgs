@@ -1,0 +1,13 @@
+package junit;
+
+import org.junit.Test;
+import static org.junit.Assert.assertEquals;
+public class MyUnitTest {
+   @Test
+   public void testSetup() {
+      String str1= "I am done ";
+      String str2="with Junit setup";
+      String con=str1.concat(str2);
+      assertEquals("I am done with Junit setup",con);
+   }
+}

@@ -1,0 +1,27 @@
+package Handson;
+
+import java.util.Scanner;
+
+public class Main1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+		Recruitment r=new Recruitment();
+		int candidate=0;
+		while(candidate<3) {
+			candidate=r.shortlist(sc.nextInt(), sc.nextLine(), candidate)
+		}
+		System.out.println("Selection process completed");
+	}
+
+}
+class Recruitment{
+	public int shortlist (int y,String d,int c) {
+		if(y>5 && d=="MBA") {
+			c=c+1;
+		}
+		return c;
+		
+		
+	}
+}

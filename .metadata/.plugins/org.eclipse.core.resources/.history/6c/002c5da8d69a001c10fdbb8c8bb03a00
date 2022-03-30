@@ -1,0 +1,12 @@
+package exception;
+
+import java.io.*;
+
+public class FileException {
+
+	public static void main(String[] args) throws FileNotFoundException {
+		File f = new File("C:\\file.txt");
+		
+	}
+
+}

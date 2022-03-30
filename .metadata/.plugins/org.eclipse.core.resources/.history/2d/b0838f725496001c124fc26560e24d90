@@ -1,0 +1,54 @@
+package package3;
+
+import package2.Mammal;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Mammal m = new Mammal();
+		m.setName("Dog");
+		m.setVeg(false);
+		m.setVivi(true);
+		m.setSound("Woof");
+		m.nature("Domestic", m.getName());
+		System.out.println(m.getName()+" is a Mammal and its sound is "+m.getSound());
+		if(m.isVeg()) {
+			System.out.println(m.getName()+"is a Herbivore");
+		}
+		else {
+			System.out.println(m.getName()+"is a not a Herbivore");
+		}
+		m.habitat("Land");
+		if(m.isVivi()) {
+			System.out.println(m.getName()+" is viviparous");
+		}
+		else {
+			System.out.println(m.getName()+" is oviparous");
+			
+		}
+		
+		Mammal m2 = new Mammal();
+		m2.setName("Echidna");
+		m2.setVeg(false);
+		m2.habitat("Land");
+		m2.setVivi(false);
+		m2.setSound("snuffling noise");
+		m.nature("Wild", m.getName());
+		System.out.println(m.getName()+"is a Mammal and its sound is "+m.getSound());
+		if(m.isVeg()) {
+			System.out.println(m.getName()+"is a Herbivore");
+		}
+		else {
+			System.out.println(m.getName()+"is a not a Herbivore");
+		}
+		m.habitat("Land");
+		if(m.isVivi()) {
+			System.out.println(m.getName()+"is viviparous");
+		}
+		else {
+			System.out.println(m.getName()+"is oviparous");
+			
+		}
+	}
+
+}

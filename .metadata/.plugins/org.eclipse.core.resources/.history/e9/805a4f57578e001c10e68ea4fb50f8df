@@ -1,0 +1,14 @@
+package oops;
+
+public class OopsClass {
+
+	int a;
+	int b;
+	
+	public OopsClass() {
+		System.out.println("default Constructor");
+		
+		
+	}
+
+}

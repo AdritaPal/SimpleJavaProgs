@@ -1,0 +1,17 @@
+package funcInt;
+
+import java.util.function.Supplier;
+
+public class MREg {
+
+	public static void main(String[] args) {
+		MREg obj=new MREg();
+		// TODO Auto-generated method stub
+		Supplier<String> s=obj.Hello();
+		s.get();
+
+	}
+	public Supplier<String> Hello(){
+		return "Hi guys";
+	}
+}

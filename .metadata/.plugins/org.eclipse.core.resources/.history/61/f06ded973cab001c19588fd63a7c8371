@@ -1,0 +1,12 @@
+package funcInt;
+
+import java.util.function.Supplier;
+
+public class SupplierTest implements Supplier<T> {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

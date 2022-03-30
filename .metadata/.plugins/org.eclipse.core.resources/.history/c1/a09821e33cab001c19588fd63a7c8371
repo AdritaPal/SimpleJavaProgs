@@ -1,0 +1,14 @@
+package funcInt;
+
+import java.util.function.Supplier;
+import java.time.*;
+public class SupplierTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        Supplier<LocalDateTime> s = () -> LocalDateTime.now();
+        System.out.println(s.get());
+	}
+
+	
+}

@@ -1,0 +1,22 @@
+package com.ey.training.basics;
+
+public class SampleProgram {
+
+		int a = 10;
+		int b = 20;
+	
+		public void addTwoValues() {
+			int c=a+b;
+			System.out.println("addition: "+c);
+		}
+	
+		public void subtractTwoValues() {
+			int c=a-b;
+			System.out.println("subtraction: "+c);
+		}
+		  public static void main(String[] args) {
+			  SampleProgram obj = new SampleProgram();
+			obj.addTwoValues();
+			obj.subtractTwoValues();
+	   }
+}
